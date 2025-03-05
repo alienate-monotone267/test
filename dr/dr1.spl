@@ -1,2 +1,0 @@
-index=test foo=bar
-| table _time, foo, baz

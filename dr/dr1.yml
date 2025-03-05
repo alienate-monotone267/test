@@ -1,0 +1,14 @@
+title: test detection rule
+severity: high
+description: This is a test detection rule
+author: bob 
+version: 1.0
+documentation: https://example.com/dr1.html
+query: | 
+  index=test foo=bar
+  | table _time, foo, baz
+deploy_to:
+  - env1
+  - env2
+  - env3
+active: false
